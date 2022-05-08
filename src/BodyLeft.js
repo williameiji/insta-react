@@ -6,7 +6,7 @@ function Story (props) {
     return (
         <div class="story">
             <div class="imagem">
-                <img src={props.image} />
+                <img src={props.image} alt=""/>
             </div>
             <div class="usuario">
                 {props.name}
@@ -27,13 +27,13 @@ function Post (props) {
             setLike("heart-outline");
             setClassRed("")
         }
-    }
+    };
 
     return (
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src={props.imageUser} />
+                    <img src={props.imageUser} alt=""/>
                     {props.nameUser}
                 </div>
                 <div class="acoes">
@@ -42,7 +42,7 @@ function Post (props) {
             </div>
 
             <div class="conteudo">
-                <img src={props.post} onClick={clickLike}/>
+                <img src={props.post} onClick={clickLike} alt=""/>
             </div>
 
             <div class="fundo">
@@ -58,7 +58,7 @@ function Post (props) {
                 </div>
 
                 <div class="curtidas">
-                    <img src={props.imageComment} />
+                    <img src={props.imageComment} alt=""/>
                     <div class="texto">
                         Curtido por <strong>{props.whoLike}</strong> e <strong>{props.moreLike}</strong>
                     </div>
@@ -67,8 +67,6 @@ function Post (props) {
         </div>
     );
 }
-
-
 
 export default function BodyLeft () {
 

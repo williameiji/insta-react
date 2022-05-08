@@ -8,5 +8,5 @@ export default function Body () {
             <BodyLeft />
             <Asidebar />
         </div>
-    )
+    );
 }

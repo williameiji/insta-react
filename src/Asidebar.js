@@ -3,20 +3,20 @@ import images from "./shared/images";
 function UserAside (props) {
     return (
         <div class="usuario">
-            <img src={props.image} />
+            <img src={props.image} alt=""/>
             <div class="texto">
                 <strong>{props.userNick}</strong>
                 {props.name}
             </div>
         </div>
-    )
+    );
 }
 
 function Sugests (props){
     return (
         <div class="sugestao">
             <div class="usuario">
-            <img src={props.image} />
+            <img src={props.image} alt=""/>
             <div class="texto">
                 <div class="nome">{props.name}</div>
                 <div class="razao">Segue você</div>
@@ -25,7 +25,7 @@ function Sugests (props){
 
             <div class="seguir">Seguir</div>
         </div>
-    )
+    );
 }
 
 export default function Asidebar () {
@@ -55,5 +55,5 @@ export default function Asidebar () {
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
       </div>
-    )
+    );
 }
