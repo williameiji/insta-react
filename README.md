@@ -27,8 +27,3 @@ Check project running [here](https://insta-react-ten.vercel.app/)
 ```
 $ git clone https://github.com/williameiji/insta-react.git
 ```
-
-**Installing dependencies**
-```
-$ npm install
-```
