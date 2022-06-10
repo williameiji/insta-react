@@ -9,7 +9,7 @@
 
 A copy of instagram using React with responsiveness.
 
-Check project running [here](https://projeto8-williameiji.vercel.app)
+Check project running [here](https://insta-react-ten.vercel.app/)
 
 
 ## Built With
